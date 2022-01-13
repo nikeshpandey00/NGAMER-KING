@@ -1306,7 +1306,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"☠️ 𝙁𝙐𝘾𝙆𝙄𝙉𝙂 𝙎𝙋𝙀𝙀𝘿 !\n`{ms}` 𝗺𝘀\n ")
+        await event.edit(f"☠️ 𝑵𝑮𝑨𝑴𝑬𝑹 𝑺𝑷𝑨𝑴𝑴𝑬𝑹!\n`{ms}` 𝗺𝘀\n ")
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
@@ -1507,8 +1507,8 @@ async def help(e):
     
         
 text = """
-⚜️ 𝙂𝙤 𝘿𝙤 .𝙥𝙞𝙣𝙜 𝙖𝙩 @𝙏𝙚𝙖𝙢_𝘽𝙡𝙖𝙘𝙠𝙎𝙩𝙤𝙧𝙢 ⚜️
-💥𝗕𝗬 @BlackStorm_owner 💥"""
+⚜️ 𝙂𝙤 𝘿𝙤 .𝙥𝙞𝙣𝙜 𝙖𝙩  ⚜️
+💥💥"""
 
 print(text)
 print("")
