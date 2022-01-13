@@ -132,8 +132,8 @@ async def start_aries():
     global wal
     global aaa
     global boy
-      if smex:
-
+    
+    if smex:
         session_name = str(smex)
         print("String 1 Found")
         idk = TelegramClient(StringSession(session_name), a, b)
